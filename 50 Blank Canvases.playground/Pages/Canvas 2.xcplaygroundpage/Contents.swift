@@ -47,7 +47,7 @@ for x in stride(from: 0, through: 200, by: 1) {
     
     // Set the colour
     canvas.lineColor = Color(hue: 280, saturation: 80, brightness: toY, alpha: 100)
-
+ 
     
     //Draw the line
     canvas.drawLine(fromX: x, fromY: 0, toX: x, toY: toY)
