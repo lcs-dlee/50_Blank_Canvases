@@ -15,6 +15,27 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 300)
 
+// Declare co-ordinates
+let x1 = 300.0
+let x2 = 450.0
+let y1 = 100.0
+let y2 = 500.0
+
+// Work out the distance between these points
+
+// Get difference of the x's
+let deltaX = x1 - x2
+
+// Get difference of the y's
+let deltaY = y1 - y2
+
+// Get the sum of the squares
+let sumOfSquares = pow(deltaX, 2) + pow(deltaY, 2)
+
+// Finally, evaluate the square root
+let result = sqrt(sumOfSquares)
+
+
 /*:
  ## Add your code below
  
